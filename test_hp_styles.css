@@ -2,27 +2,50 @@
 
 
 .header {
-border-style: solid;
-
+    position: relative;
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
 }
 
 
 .menubar {
-
+    position: relative;
+     border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+    text-align: center;
+    padding: 30px;
 
 }
 
 
 .main {
-
+    position: relative;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+    text-align: center;
+    height: 400px;
+    padding: 60px;
 
 }
 
 .sidenotes {
+    position: relative;
     float:right;
+    border-left: solid;
+    max-width: 200px;
+    height: 400px;
+    text-align: center;
 }
 
-
 .footer {
-
+    position: relative;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+    padding: 30px;
+    margin-bottom: 10px;
+    text-align: center;
 }
