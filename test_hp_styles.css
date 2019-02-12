@@ -1,51 +1,84 @@
+.body {
+font-family: sans-serif;
+    }
 
 
 
 .header {
-    position: relative;
+
     border-style: solid;
     padding: 20px;
     text-align: center;
+    font-size: 36px;
+
+}
+
+h2 {
+ text-decoration: underline;
+ font-style: bold;
 }
 
 
 .menubar {
-    position: relative;
-     border-bottom: solid;
+
+    border-bottom: solid;
     border-right: solid;
     border-left: solid;
     text-align: center;
-    padding: 30px;
 
 }
+
+.navigation {
+    list-style-type: none;
+    margin:0;
+    padding; 0;
+    overflow: hidden;
+    background-color: purple;
+}
+
+
+.navigation_element {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px; 15px;
+    text-decoration: none;
+    float: left;
+
+}
+
+.navigation_element:hover {
+background-color: black;
+}
+
+.link {
+color: yellow;
+    }
 
 
 .main {
-    position: relative;
+
     border-bottom: solid;
     border-right: solid;
     border-left: solid;
     text-align: center;
-    height: 400px;
     padding: 60px;
+    height: 500px;
+
 
 }
 
-.sidenotes {
-    position: relative;
-    float:right;
-    border-left: solid;
-    max-width: 200px;
-    height: 400px;
-    text-align: center;
-}
 
 .footer {
-    position: relative;
-    border-bottom: solid;
-    border-right: solid;
-    border-left: solid;
-    padding: 30px;
-    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
+    padding: 20px;
     text-align: center;
+    height: 30px;
+    width: auto;
 }
+
+
+
